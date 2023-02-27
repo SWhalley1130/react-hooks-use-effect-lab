@@ -20,7 +20,7 @@ function Question({ question, onAnswered }) {
 
     return function cleanup()
     {
-      clearInterval(intervalId);
+      clearTimeout(intervalId);
     } 
   })
 
